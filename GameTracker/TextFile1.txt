@@ -1,0 +1,89 @@
+﻿//* navbar */
+.navbar-default {
+/*    background-color: #F8F8F8;*/
+
+background: #0d515e; /* Old browsers */
+background: -moz-linear-gradient(top,  #0d515e 0%,  #0e78b6 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #0d515e 0%,#0e78b6 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #0d515e 0%,#0e78b6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d515e', endColorstr='#0e78b6',GradientType=0 ); /* IE6-9 */
+
+    border-color: #43e3fa;
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #ff920a;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #43e3fa;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #43e3fa;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ff920a;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #43e3fa;
+    background-color: #ff920a;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #ff920a;
+    background-color: #ff920a;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #43e3fa;
+    border-bottom-color: #ff920a;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #43e3fa;
+    border-bottom-color: #ff920a;
+}
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #43e3fa;
+    border-bottom-color: #ff920a;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #ff920a;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #ff920a;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ff920a;
+}
+.dropdown-menu{
+background: #0d515e; /* Old browsers */
+background: -moz-linear-gradient(top,  #0d515e 0%,  #0e78b6 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #0d515e 0%,#0e78b6 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #0d515e 0%,#0e78b6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d515e', endColorstr='#0e78b6',GradientType=0 ); /* IE6-9 */
+
+    border-color: #43e3fa;
+    color: #ff920a;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+background: #2ebbc6; /* Old browsers */
+background: -moz-linear-gradient(top,  #2ebbc6 0%,  #43e3fa 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #2ebbc6 0%,#43e3fa 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #2ebbc6 0%,#43e3fa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebbc6', endColorstr='#43e3fa',GradientType=0 ); /* IE6-9 */
+
+
+    color: #ff0000;
+}
