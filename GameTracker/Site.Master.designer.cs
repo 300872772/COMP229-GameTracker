@@ -7,13 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GameTracker
-{
-
-
-    public partial class Site
-    {
-
+namespace GameTracker {
+    
+    
+    public partial class Site {
+        
         /// <summary>
         /// head control.
         /// </summary>
@@ -22,7 +20,7 @@ namespace GameTracker
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
-
+        
         /// <summary>
         /// Home control.
         /// </summary>
@@ -31,34 +29,34 @@ namespace GameTracker
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl Home;
-
+        
         /// <summary>
-        /// Services control.
+        /// News control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Services;
-
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl News;
+        
         /// <summary>
-        /// Biography control.
+        /// Games control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Biography;
-
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Games;
+        
         /// <summary>
-        /// Projects control.
+        /// About control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Projects;
-
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl About;
+        
         /// <summary>
         /// Contacts control.
         /// </summary>
@@ -67,7 +65,7 @@ namespace GameTracker
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl Contacts;
-
+        
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -76,7 +74,7 @@ namespace GameTracker
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
+        
         /// <summary>
         /// MainContent control.
         /// </summary>

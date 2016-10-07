@@ -5,14 +5,14 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 /**
- * This is a mini profile extended web application which is all about Md Mamunur Rahman 
+ * This is a Game tracker web application  
  * 
- * @FileName: default.aspx.cs
- * @Author Md Mamunur Rahman
- * @student ID: 300872772
- * @Last Update 30-September-2016
- * @website: http://mamun-portfolio.azurewebsites.net/Default.aspx
- * @description: this file is main cs file for the website
+ * @FileName: Default1.aspx.cs
+ * @Author Md Mamunur Rahman and Aayushi
+ * @student ID: 300872772 and 
+ * @Last Update 07-October-2016
+ * @website: http://mamun-aayushi-gametracker.azurewebsites.net/
+ * @description: this file is Default cs file for the website
  */
 namespace GameTracker
 {

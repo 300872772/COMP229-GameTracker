@@ -5,13 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 /**
- * This is a mini profile extended web application which is all about Md Mamunur Rahman 
+ * This is a Game tracker web application  
  * 
- * @FileName: Projects.aspx.cs
- * @Author Md Mamunur Rahman
- * @student ID: 300872772
- * @Last Update 30-September-2016
- * @website: http://mamun-portfolio.azurewebsites.net/Default.aspx
+ * @FileName: Site.Master.aspx.cs
+ * @Author Md Mamunur Rahman and Aayushi
+ * @student ID: 300872772 and 
+ * @Last Update 07-October-2016
+ * @website: http://mamun-aayushi-gametracker.azurewebsites.net/
  * @description: this file is main cs file for the website
  */
 namespace GameTracker
@@ -45,14 +45,14 @@ namespace GameTracker
                 case "Home":
                     Home.Attributes.Add("class", "active");
                     break;
-                case "Projects":
-                    Projects.Attributes.Add("class", "active");
+                case "News":
+                    News.Attributes.Add("class", "active");
                     break;
-                case "Services":
-                    Services.Attributes.Add("class", "active");
+                case "Games":
+                    Games.Attributes.Add("class", "active");
                     break;
-                case "Biography":
-                    Biography.Attributes.Add("class", "active");
+                case "About":
+                    About.Attributes.Add("class", "active");
                     break;
                 case "Contacts":
                     Contacts.Attributes.Add("class", "active");
@@ -61,7 +61,7 @@ namespace GameTracker
 
 
             }
-
+            
         }
     }
 }
