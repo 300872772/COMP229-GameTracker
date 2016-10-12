@@ -15,7 +15,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content=" width=device-width, initial-scale=1" />
     <title>Profile</title>
-        <link rel="icon" href="Assets/favico.png" type="image/png" sizes="16x16">
+        <link rel="icon" href="Assets/favico.png" type="image/png" sizes="16x16">
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 
@@ -83,7 +84,10 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                             <i class="fa fa-adjust fa-lg" aria-hidden="true"></i> Others <span class="caret"></span></a>
-                                               <ul class="dropdown-menu">
+                                 <ul class="dropdown-menu">
+                                      <li id="MatchDataAddForm" runat="server"><a href="MatchDataAddForm.aspx"><i class="fa fa-compress fa-lg" aria-hidden="true"></i> Add Match Data</a></li>
+                                     <li id="Li1" runat="server"><a href="TeamDataAddForm.aspx"><i class="fa fa-compress fa-lg" aria-hidden="true"></i> Add Team Data</a></li>
+
                                  </ul>
                     </li>
                 </ul>

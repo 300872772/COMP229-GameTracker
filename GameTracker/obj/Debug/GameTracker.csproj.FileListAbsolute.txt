@@ -47,3 +47,7 @@ C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameT
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\System.Web.Mvc.xml
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\obj\Debug\COMP229-F2016-Assignment1.dll
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\obj\Debug\COMP229-F2016-Assignment1.pdb
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\EntityFramework.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\EntityFramework.SqlServer.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\EntityFramework.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\EntityFramework.SqlServer.xml
