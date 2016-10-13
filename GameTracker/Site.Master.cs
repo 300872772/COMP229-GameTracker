@@ -44,18 +44,25 @@ namespace GameTracker
 
                 case "Home":
                     Home.Attributes.Add("class", "active");
+                    navtab.Visible = false;
+                  
                     break;
                 case "News":
                     News.Attributes.Add("class", "active");
+                    navtab.Visible = false;
                     break;
                 case "Games":
                     Games.Attributes.Add("class", "active");
+                    
+                    navtab.Visible = true;
                     break;
                 case "About":
                     About.Attributes.Add("class", "active");
+                    navtab.Visible = false;
                     break;
                 case "Contacts":
                     Contacts.Attributes.Add("class", "active");
+                    navtab.Visible = false;
                     break;
 
 

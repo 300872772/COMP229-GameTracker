@@ -100,6 +100,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\favico.png" />
+    <Content Include="Assets\football2.png" />
     <Content Include="Assets\logo1.svg" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\app.css" />
@@ -121,6 +122,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="MainMenu.aspx" />
     <Content Include="MatchDataAddForm.aspx" />
     <Content Include="News.aspx" />
     <Content Include="Games.aspx" />
@@ -163,6 +165,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.aspx.cs">
+      <DependentUpon>MainMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainMenu.aspx.designer.cs">
+      <DependentUpon>MainMenu.aspx</DependentUpon>
     </Compile>
     <Compile Include="MatchDataAddForm.aspx.cs">
       <DependentUpon>MatchDataAddForm.aspx</DependentUpon>

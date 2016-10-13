@@ -8,7 +8,7 @@ namespace GameTracker.Models
     public partial class gametracker : DbContext
     {
         public gametracker()
-            : base("name=gametracker1")
+            : base("name=gametracker")
         {
         }
 

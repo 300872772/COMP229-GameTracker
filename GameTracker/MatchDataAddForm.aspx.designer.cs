@@ -85,6 +85,15 @@ namespace GameTracker {
         protected global::System.Web.UI.WebControls.TextBox week;
         
         /// <summary>
+        /// CancelButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button CancelButton;
+        
+        /// <summary>
         /// emailConfirmation control.
         /// </summary>
         /// <remarks>
@@ -94,12 +103,12 @@ namespace GameTracker {
         protected global::System.Web.UI.WebControls.Label emailConfirmation;
         
         /// <summary>
-        /// sendButton control.
+        /// SaveButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button sendButton;
+        protected global::System.Web.UI.WebControls.Button SaveButton;
     }
 }

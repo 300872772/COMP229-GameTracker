@@ -6,7 +6,7 @@
  
         <h1 >Add Team Data</h1>
           
-   <div class="col-md-5">
+   <div >
 
 					
 					<div class="containerDecoration">
@@ -125,9 +125,11 @@
 						</div>
 						
                         <div class="text-right">
+                        <asp:Button Text="Cancel" ID="CancelButton" CssClass="btn btn-warning btn-lg" runat="server"
+                        UseSubmitBehavior="false" CausesValidation="false" OnClick="CancelButton_Click" />
 						   <asp:Label id="emailConfirmation" runat="server"></asp:Label>
-						<asp:Button ID="sendButton" OnClick="sendButton_Click" CssClass="btn btn-primary" runat="server" Text="Submit" />
-							</div>
+                        <asp:Button Text="Save" ID="SaveButton" CssClass="btn btn-primary btn-lg" runat="server"
+                            OnClick="SaveButton_Click" />							</div>
 					</div>
 				</div><!--col-md-5 -->
 
