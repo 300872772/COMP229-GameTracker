@@ -31,14 +31,14 @@ namespace GameTracker.Models
 
         public int T2TotalShot { get; set; }
 
-        public int T3ShotInbox { get; set; }
+        public int T2ShotInbox { get; set; }
 
-        public int T4ShotOutbox { get; set; }
+        public int T2ShotOutbox { get; set; }
 
-        public int T5Corner { get; set; }
+        public int T2Corner { get; set; }
 
-        public int T6ShotAccuracy { get; set; }
+        public int T2ShotAccuracy { get; set; }
 
-        public int T7EarningPoints { get; set; }
+        public int T2EarningPoints { get; set; }
     }
 }

@@ -99,9 +99,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Barcelona.png" />
     <Content Include="Assets\favico.png" />
+    <Content Include="Assets\football.png" />
     <Content Include="Assets\football2.png" />
+    <Content Include="Assets\football3.png" />
     <Content Include="Assets\logo1.svg" />
+    <Content Include="Assets\RealMadrid.png" />
+    <Content Include="Assets\Sevilla.png" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\app.css" />
     <Content Include="Content\bootstrap-theme.css" />

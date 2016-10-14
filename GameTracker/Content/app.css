@@ -232,8 +232,72 @@ nav{
     width: 700px;
 
 }
+.football {
+    height:10%;
+    width:10%;
+}
+.containerDecorationMatchTitle {
+    float: none;
+    margin-left:-10px;
+ 
+    width: 102%;
+    height: 100%;
+    font-family: Tahoma;
+    background: -webkit-gradient(linear, right top, left top, color-stop(0%,#d8d8d8), color-stop(100%, rgba(170,181,191,1)));
+    background: linear-gradient(to left, #d8d8d8, rgba(170,181,191,1));
+    overflow: hidden;
+    opacity: 0.98;
+    filter: alpha(opacity=98);
+    color: black;
+    text-shadow: 1px 1px 1px #898484;
+    text-align:center;
+}
+.containerDecorationMatchBody {
+    float: none;
+    margin-left:-10px;
+  
+    width: 102%;
+    height: 100%;
+    font-family: Tahoma;
+    background: -webkit-gradient(linear, right top, left top, color-stop(0%,#6fdbde), color-stop(100%,#c9faf5));
+    background: linear-gradient(to left, #6fdbde, #c9faf5);
+    overflow: hidden;
+    opacity: 0.98;
+    filter: alpha(opacity=98);
+    text-shadow: 1px 1px 1px #fff;
+    color: #94078d;
 
+    text-align:center;
+}
 
+.gameBackground {
+    background: url('../Assets/football3.png');
+
+}
+.containerDecorationMatch {
+
+    float: none;
+    width: 98%;
+    height: 100%;
+    font-family: Tahoma;
+    background: -webkit-gradient(linear, right top, left top, color-stop(0%,rgba(170,181,191,1)), color-stop(100%,rgba(121,142,163,1)));
+    background: linear-gradient(to left, rgba(170,181,191,1), rgba(121,142,163,1));
+    border-radius: 20px;
+    overflow: hidden;
+    opacity: 0.98;
+    filter: alpha(opacity=98);
+    color: floralwhite;
+    text-shadow: 1px 1px 1px #420505;
+    text-align:center;
+}
+
+.img-responsive {
+    height:20%;
+    width:20%;
+    margin-left: auto;
+margin-right: auto;
+float: none !important;
+}
 .containerDecoration {
     margin:1px;
     float: left;
@@ -522,3 +586,5 @@ nav{
     margin-right: auto;
     margin-left: auto;
 }
+
+
