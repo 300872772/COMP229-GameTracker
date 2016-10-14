@@ -68,7 +68,7 @@ namespace GameTracker.Pages
                     goal1 = "";
                     goal2 = "";
 
-                    gameData.InnerHtml += "<div class='row containerDecorationMatchBody'  runat='server'>";
+                    gameData.InnerHtml += "<div class='row containerDecorationMatchBody ' runat='server'>";
                     foreach (var team in db.Teams)
                     {
                         if (team.TeamID == match.Team1ID)
