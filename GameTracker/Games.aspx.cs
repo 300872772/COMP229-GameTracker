@@ -93,10 +93,10 @@ namespace GameTracker.Pages
                                      MatchID = allMatches.MatchID,
                                      MatchDate = SqlFunctions.DateName("month", allMatches.MatchDate) + " " +SqlFunctions.DateName("day", allMatches.MatchDate) + ", "  + SqlFunctions.DateName("year", allMatches.MatchDate),
                                      TeamName1 = teams1.TeamName,
-                                     Flag1 = "~/Assets/" +  teams1.Flag + ".gif",
+                                     Flag1 = "~/Assets/Flags/" +  teams1.Flag + ".gif",
                                      Result =  matchStatistic.T1Goal + " - " + matchStatistic.T2Goal,
                                      TeamName2 = teams2.TeamName,
-                                     Flag2 = "~/Assets/" + teams2.Flag + ".gif",
+                                     Flag2 = "~/Assets/Flags/" + teams2.Flag + ".gif",
                                  }).ToList();
               
 
