@@ -51,3 +51,4 @@ C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameT
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\EntityFramework.SqlServer.dll
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\EntityFramework.xml
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\EntityFramework.SqlServer.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\System.Linq.Dynamic.dll

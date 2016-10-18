@@ -7,6 +7,9 @@ using System.Web.UI.WebControls;
 using GameTracker.Models;
 using System.Web.ModelBinding;
 using System.Data.SqlClient;
+using System.Linq.Dynamic;
+using System.Data.Entity.SqlServer;
+using System.Globalization;
 /**
 * This is a Game tracker web application  
 * 
@@ -42,73 +45,93 @@ namespace GameTracker.Pages
         */
         protected void Page_Load(object sender, EventArgs e)
         {
-             using (gametracker db = new gametracker())
+
+            GamepageHeading(0);
+
+            int WeekNumber = Convert.ToInt32(Request.QueryString["WeekNum"]);
+
+            if (WeekNumber != 0)
             {
-                Match newMatch = new Match();
-                //foreach (var m in db.Matches) 
-                var allRows = (from p in db.Matches where p.MatchID ==1 select p).ToList();
-
-                matchDate.InnerText = "2016-10-14";
-                tournament.InnerText = "Lalega";
-                matchWeek.InnerText = "Week40";
-                String team1, team2, team1flag, team2flag,goal1,goal2;
-
-             /*   var data = from u in db.Matches where u.MatchID == 5 select u;
-                foreach (var item in data)
-                {
-                    Div1.InnerHtml += item.MatchID.ToString() + "<br>";
-                }*/
-
-                foreach (var match in db.Matches)
-                {
-                    team1 = "";
-                    team2 = "";
-                    team1flag = "";
-                    team2flag = "";
-                    goal1 = "";
-                    goal2 = "";
-
-                    gameData.InnerHtml += "<div class='row containerDecorationMatchBody ' runat='server'>";
-                    foreach (var team in db.Teams)
-                    {
-                        if (team.TeamID == match.Team1ID)
-                        {
-                            team1 = team.TeamName;
-                            team1flag=team.Flag;
-                        }
-                        if (team.TeamID == match.Team2ID)
-                        {
-                            team2 = team.TeamName;
-                            team2flag = team.Flag;
-                        }
-
-                    }
-                    foreach (var MatchStatistic in db.MatchStatistics)
-                    {
-                        if (MatchStatistic.MatchID == match.MatchID)
-                        {
-                            goal1 = MatchStatistic.T1Goal.ToString();
-                            goal2 = MatchStatistic.T2Goal.ToString();
-                        }
-
-                    }
-                    gameData.InnerHtml += " <div class='col-md-4'><img src='Assets/" + team1flag + ".png' class='img-responsive'><h4>" + team1 +" </h4></div>";
-                       gameData.InnerHtml += " <div class='col-md-4'><h4> " + goal1 + "-" + goal2 + " </h4><img src='Assets/football.png' class='football'></div>";
-                       gameData.InnerHtml += " <div class='col-md-4'><img src='Assets/" + team2flag + ".png' class='img-responsive'><h4> " + team2 + " </h4></div>";
-           
-                    gameData.InnerHtml += "</div><hr>";
-                }
-                
+                displayMatchesInGrid(WeekNumber);
+                GamepageHeading(WeekNumber);
             }
-
-           
+            else { displayMatchesInGrid(40); }
 
 
 
         }
 
-        protected void MatchButton_OnClick(object sender, EventArgs e) {
-            Response.Redirect("default.aspx");
+        public void GamepageHeading (int week){
+            matchDate.InnerText = DateTime.Now.ToString("dd/MMM/yyyy");
+
+            tournament.InnerText = "Lalega";
+            CultureInfo ciCurr = CultureInfo.CurrentCulture;
+            int weekNum;
+            if (week == 0) { 
+             weekNum = ciCurr.Calendar.GetWeekOfYear(Convert.ToDateTime("2016/10/12"), CalendarWeekRule.FirstFourDayWeek, DayOfWeek.Monday);
+            }else {
+                weekNum = week;
+            }
+            matchWeek.InnerHtml = "Week - " + weekNum.ToString() + "  " + " <a href='Games.aspx?WeekNum="+( weekNum-1) + "'>  < </a> <a href='Games.aspx?WeekNum=" + (weekNum + 1) + "'>  > </a>";
+        }
+        public void displayMatchesInGrid(int week)
+        {
+
+            
+            // connect to EF DB
+            using (gametracker db = new gametracker())
+            {
+
+                // query the Matches Table using EF and LINQ
+                var matches = (from allMatches in db.Matches
+                               join teams1 in db.Teams on allMatches.Team1ID equals teams1.TeamID
+                               join teams2 in db.Teams on allMatches.Team2ID equals teams2.TeamID
+                               join matchStatistic in db.MatchStatistics on allMatches.MatchID equals matchStatistic.MatchID
+                               where allMatches.Week == week
+                                 select  new
+                                 {
+                                     MatchID = allMatches.MatchID,
+                                     MatchDate = SqlFunctions.DateName("month", allMatches.MatchDate) + " " +SqlFunctions.DateName("day", allMatches.MatchDate) + ", "  + SqlFunctions.DateName("year", allMatches.MatchDate),
+                                     TeamName1 = teams1.TeamName,
+                                     Flag1 = "~/Assets/" +  teams1.Flag + ".gif",
+                                     Result =  matchStatistic.T1Goal + " - " + matchStatistic.T2Goal,
+                                     TeamName2 = teams2.TeamName,
+                                     Flag2 = "~/Assets/" + teams2.Flag + ".gif",
+                                 }).ToList();
+              
+
+
+                // bind the result to the MatchGridView 
+                MatchGridView.DataSource = matches.AsQueryable().OrderBy("MatchDate desc").ToList();
+                MatchGridView.DataBind();
+                MatchGridView.Columns[0].Visible = false;
+                // MatchGridView.HeaderRow.Cells[0].HorizontalAlign = HorizontalAlign.Right;
+
+
+            }
+
+        }
+
+
+
+       
+
+        protected void GridView_OnSelectedIndexChanging(object sender, GridViewSelectEventArgs e)
+        {
+
+        }
+
+        protected void MatchGridView_RowDataBound(object sender, GridViewRowEventArgs e)
+        {
+            if (e.Row.RowType == DataControlRowType.DataRow)
+            {
+                e.Row.Attributes.Add("onmouseover", "this.style.backgroundColor='#ceedfc'");
+                e.Row.Attributes.Add("onmouseout", "this.style.backgroundColor=''");
+                e.Row.Attributes.Add("style", "cursor:pointer;");
+                 e.Row.Attributes.Add("onclick", "location='Statistics.aspx?MatchID=" + e.Row.Cells[0].Text + "'");
+
+
+            }
         }
     }
 }

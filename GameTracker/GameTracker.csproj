@@ -56,6 +56,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Linq.Dynamic, Version=1.0.6132.35681, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.Dynamic.1.0.7\lib\net40\System.Linq.Dynamic.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
@@ -101,6 +105,14 @@
   <ItemGroup>
     <Content Include="Assets\Barcelona.png" />
     <Content Include="Assets\favico.png" />
+    <Content Include="Assets\Flags\arsenal.gif" />
+    <Content Include="Assets\Flags\chelsea.gif" />
+    <Content Include="Assets\Flags\fcb.gif" />
+    <Content Include="Assets\Flags\juve.gif" />
+    <Content Include="Assets\Flags\liverpool.gif" />
+    <Content Include="Assets\Flags\mu.gif" />
+    <Content Include="Assets\Flags\real.gif" />
+    <Content Include="Assets\Flags\valencia.gif" />
     <Content Include="Assets\football.png" />
     <Content Include="Assets\football2.png" />
     <Content Include="Assets\football3.png" />
@@ -148,6 +160,7 @@
     <None Include="Scripts\jquery-2.2.4.intellisense.js" />
     <Content Include="Scripts\jquery-2.2.4.js" />
     <Content Include="Scripts\jquery-2.2.4.min.js" />
+    <Content Include="Statistics.aspx" />
     <Content Include="TeamDataAddForm.aspx" />
     <Content Include="TextFile1.txt" />
     <Content Include="Web.config" />
@@ -231,6 +244,13 @@
     </Compile>
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Statistics.aspx.cs">
+      <DependentUpon>Statistics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Statistics.aspx.designer.cs">
+      <DependentUpon>Statistics.aspx</DependentUpon>
     </Compile>
     <Compile Include="TeamDataAddForm.aspx.cs">
       <DependentUpon>TeamDataAddForm.aspx</DependentUpon>

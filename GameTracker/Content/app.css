@@ -230,8 +230,21 @@ nav{
     margin: 0 auto;
     text-align: left;
     width: 700px;
+    padding-top: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+
 
 }
+
+
+.BotonDeImagen {
+    width:50px;
+    height:50px;
+}
+
 .football {
     height:10%;
     width:10%;
@@ -274,6 +287,7 @@ nav{
     }
 .gameBackground {
     background: url('../Assets/football3.png');
+   
 
 }
 .containerDecorationMatch {
@@ -568,13 +582,7 @@ float: none !important;
     background-color: rgba(121,142,163,1);
 }
 
-.container {
-    padding-top: 20px;
-    padding-right: 0;
-    padding-left: 0;
-    margin-right: auto;
-    margin-left: auto;
-}
+
 
 .wrapper {
     padding-right: 0;
@@ -588,5 +596,4 @@ float: none !important;
     margin-right: auto;
     margin-left: auto;
 }
-
 
