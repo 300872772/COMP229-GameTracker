@@ -8,16 +8,16 @@
 
             <div class="containerDecorationMatch">
                 <h1>Matches</h1>
-                <div class="row">
+                <div class="row containerDecorationMatchBody">
 
                     <div class="col-sm-4">
-                        <h3 id="matchDate" runat="server">Today</h3>
+                        <h4 id="matchDate" runat="server"></h4>
                     </div>
                     <div class="col-sm-4">
-                        <h3 id="tournament" runat="server"></h3>
+                        <h4 id="tournament" runat="server"></h4>
                     </div>
                     <div class="col-sm-4">
-                        <h3 id="matchWeek" runat="server"></h3>
+                        <h4 id="matchWeek" runat="server"></h4>
                     </div>
                 </div>
                 <br>

@@ -62,9 +62,7 @@ namespace GameTracker.Pages
         }
 
         public void GamepageHeading (int week){
-            matchDate.InnerText = DateTime.Now.ToString("dd/MMM/yyyy");
 
-            tournament.InnerText = "Lalega";
             CultureInfo ciCurr = CultureInfo.CurrentCulture;
             int weekNum;
             if (week == 0) { 
@@ -72,7 +70,10 @@ namespace GameTracker.Pages
             }else {
                 weekNum = week;
             }
-            matchWeek.InnerHtml = "Week - " + weekNum.ToString() + "  " + " <a href='Games.aspx?WeekNum="+( weekNum-1) + "'>  < </a> <a href='Games.aspx?WeekNum=" + (weekNum + 1) + "'>  > </a>";
+            matchDate.InnerHtml = " Today <br>" + DateTime.Now.ToString("dd/MMM/yyyy") + " <br><a href = 'Games.aspx?WeekNum=" + (weekNum - 1) + "'>   <  </a>";
+
+            tournament.InnerHtml = "Tournament <br> Lalega";
+            matchWeek.InnerHtml = "Week <br> " + weekNum.ToString() + "<br>" + " <a href='Games.aspx?WeekNum=" + (weekNum + 1) + "'>   > </a>";
         }
         public void displayMatchesInGrid(int week)
         {

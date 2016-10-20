@@ -193,6 +193,7 @@ nav{
     padding-left: 30px;
     padding-bottom: 50px;
     z-index: 3;
+      background: url('../Assets/football3.png');
 }
 /*logo decoration*/
 .logo {
@@ -289,8 +290,8 @@ nav{
     width: 102%;
     height: 100%;
     font-family: Tahoma;
-    background: -webkit-gradient(linear, right top, left top, color-stop(0%,#6fdbde), color-stop(100%,#c9faf5));
-    background: linear-gradient(to left, #6fdbde, #c9faf5);
+    background: -webkit-gradient(linear, right top, left top, color-stop(0%,rgb(76, 136, 196)), color-stop(100%,#d8d8d8));
+    background: linear-gradient(to left, rgb(76, 136, 196), #d8d8d8);
     overflow: hidden;
     opacity: 0.98;
     filter: alpha(opacity=98);
@@ -303,7 +304,7 @@ nav{
         background-color: aquamarine;
     }
 .gameBackground {
-    background: url('../Assets/football3.png');
+  
    
 
 }
