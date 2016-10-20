@@ -9,9 +9,11 @@
  * @website: http://mamun-portfolio.azurewebsites.net/Default.aspx
  * @description: this file is main CSS file for the website
  */
+html{background: url('../Assets/football3.png');}
 
 body {
     overflow-x: hidden;
+       background: url('../Assets/football3.png');   
 }
 
 nav{
@@ -193,7 +195,7 @@ nav{
     padding-left: 30px;
     padding-bottom: 50px;
     z-index: 3;
-      background: url('../Assets/football3.png');
+
 }
 /*logo decoration*/
 .logo {
