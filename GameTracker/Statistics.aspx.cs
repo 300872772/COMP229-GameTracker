@@ -28,7 +28,9 @@ namespace GameTracker
         {
             int SQLMatchID = Convert.ToInt32(Request.QueryString["MatchID"]);
 
-
+            if (SQLMatchID == 0) {
+                SQLMatchID = 1;
+            }
 
             // connect to EF DB
             using (gametracker db = new gametracker())
@@ -41,7 +43,7 @@ namespace GameTracker
                                join matchStatistic in db.MatchStatistics on allMatches.MatchID
                                equals matchStatistic.MatchID
                                where allMatches.MatchID == SQLMatchID
-                               select new
+                               select  new
                                {
                                    MatchID = allMatches.MatchID,
                                    MatchDate = allMatches.MatchDate,

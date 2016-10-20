@@ -53,7 +53,24 @@ namespace GameTracker
                     break;
                 case "Games":
                     Games.Attributes.Add("class", "active");
-                    
+                    Match.Attributes.Add("class", "active");
+                    navtab.Visible = true;
+                    break;
+                case "MatchStatistics":
+                    Games.Attributes.Add("class", "active");
+                    Statistics.Attributes.Add("class", "active");
+
+                    navtab.Visible = true;
+                    break;
+                case "PointTable":
+                    Games.Attributes.Add("class", "active");
+                    Point.Attributes.Add("class", "active");
+
+                    navtab.Visible = true;
+                    break;
+                case "Team":
+                    Games.Attributes.Add("class", "active");
+                    Team.Attributes.Add("class", "active");
                     navtab.Visible = true;
                     break;
                 case "About":

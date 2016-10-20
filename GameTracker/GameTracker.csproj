@@ -144,6 +144,7 @@
     <Content Include="News.aspx" />
     <Content Include="Games.aspx" />
     <Content Include="About.aspx" />
+    <Content Include="PointTable.aspx" />
     <Content Include="Scripts\app.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -161,6 +162,7 @@
     <Content Include="Scripts\jquery-2.2.4.js" />
     <Content Include="Scripts\jquery-2.2.4.min.js" />
     <Content Include="Statistics.aspx" />
+    <Content Include="Team.aspx" />
     <Content Include="TeamDataAddForm.aspx" />
     <Content Include="TextFile1.txt" />
     <Content Include="Web.config" />
@@ -226,6 +228,13 @@
     <Compile Include="About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
+    <Compile Include="PointTable.aspx.cs">
+      <DependentUpon>PointTable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PointTable.aspx.designer.cs">
+      <DependentUpon>PointTable.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -251,6 +260,13 @@
     </Compile>
     <Compile Include="Statistics.aspx.designer.cs">
       <DependentUpon>Statistics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Team.aspx.cs">
+      <DependentUpon>Team.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Team.aspx.designer.cs">
+      <DependentUpon>Team.aspx</DependentUpon>
     </Compile>
     <Compile Include="TeamDataAddForm.aspx.cs">
       <DependentUpon>TeamDataAddForm.aspx</DependentUpon>

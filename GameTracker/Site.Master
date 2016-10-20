@@ -86,10 +86,10 @@
 
                             <ul class="nav nav-tabs" id="navtab" runat="server">
                                 
-                                <li class="active"><a href="#">Match</a></li>
-                                <li><a href="#">Statistics</a></li>
-                                <li><a href="#">Teams</a></li>
-                                <li><a href="#">Calendar</a></li>
+                                <li id="Match" runat="server"><a href="Games.aspx">Match</a></li>
+                                <li id="Statistics" runat="server"><a href="Statistics.aspx?MatchID=1">Statistics</a></li>
+                                <li id="Team" runat="server"><a href="Team.aspx">Teams</a></li>
+                                <li id="Point" runat="server"><a href="PointTable.aspx">Point Table</a></li>
                             </ul>
                         </ul>
                     </div>

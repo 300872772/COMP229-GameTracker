@@ -264,6 +264,23 @@ nav{
     color: black;
     text-shadow: 1px 1px 1px #898484;
     text-align:center;
+
+}
+.containerDecorationMatchTitle1 {
+    float: none;
+    margin-left:-10px;
+    width: 102%;
+    height: 100%;
+    font-family: Tahoma;
+    background: -webkit-gradient(linear, right top, left top, color-stop(0%,#d8d8d8), color-stop(100%, rgba(170,181,191,1)));
+    background: linear-gradient(to left, #d8d8d8, rgba(170,181,191,1));
+    overflow: hidden;
+    opacity: 0.98;
+    filter: alpha(opacity=98);
+    color: #24857c;
+    text-shadow: 1px 1px 1px #898484;
+    text-align:center;
+    overflow-x: scroll;
 }
 .containerDecorationMatchBody {
     float: none;
