@@ -20,7 +20,7 @@ namespace GameTracker
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Response.Redirect("Games.aspx");
+            Response.Redirect("~/Games.aspx");
         }
     }
 }
