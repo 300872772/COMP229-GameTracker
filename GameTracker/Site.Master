@@ -21,10 +21,10 @@
     </asp:ContentPlaceHolder>
 
     <!-- CSS Section -->
-    <link href="Content/bootstrap.min.css" rel="stylesheet" />
-    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
-    <link href="Content/font-awesome.min.css" rel="stylesheet" />
-    <link href="Content/app.css" rel="stylesheet" />
+    <link href="/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="/Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="/Content/app.css" rel="stylesheet" />
 </head>
 <body>
     <div id="wrapper">
@@ -67,11 +67,11 @@
 
                         <ul class="nav navbar-nav navbar-center">
 
-                            <li id="Home" runat="server"><a href="../default.aspx"><i class="fa fa-home fa-lg" aria-hidden="true"></i>Home</a></li>
-                            <li id="News" runat="server"><a href="../News.aspx"><i class="fa fa-cog fa-lg" aria-hidden="true"></i>News</a></li>
-                            <li id="Games" runat="server"><a href="../Games.aspx"><i class="fa fa-book fa-lg" aria-hidden="true"></i>Games</a></li>
-                            <li id="About" runat="server"><a href="../About.aspx"><i class="fa fa-dropbox fa-lg" aria-hidden="true"></i>About</a></li>
-                            <li id="Contacts" runat="server"><a href="../Contact.aspx"><i class="fa fa-compress fa-lg" aria-hidden="true"></i>Contact</a></li>
+                            <li id="Home" runat="server"><a href="/default.aspx"><i class="fa fa-home fa-lg" aria-hidden="true"></i>Home</a></li>
+                            <li id="News" runat="server"><a href="/News.aspx"><i class="fa fa-cog fa-lg" aria-hidden="true"></i>News</a></li>
+                            <li id="Games" runat="server"><a href="/Games.aspx"><i class="fa fa-book fa-lg" aria-hidden="true"></i>Games</a></li>
+                            <li id="About" runat="server"><a href="/About.aspx"><i class="fa fa-dropbox fa-lg" aria-hidden="true"></i>About</a></li>
+                            <li id="Contacts" runat="server"><a href="/Contact.aspx"><i class="fa fa-compress fa-lg" aria-hidden="true"></i>Contact</a></li>
                             
 
 
@@ -79,10 +79,10 @@
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                     <i class="fa fa-adjust fa-lg" aria-hidden="true"></i>Others <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li id="Login" runat="server"><a href="Login.aspx"><i class="fa fa-compress fa-lg" aria-hidden="true"></i>Log In</a></li>
-                                    <li id="Register" runat="server"><a href="Register.aspx"><i class="fa fa-compress fa-lg" aria-hidden="true"></i>Register</a></li>
-                                     <li id="Mainmenue" runat="server"><a href="GameTracker/MainMenu.aspx"><i class="fa fa-compress fa-lg" aria-hidden="true"></i>Main Menu</a></li>
-                                     <li id="logout" runat="server"><a href="Logout.aspx"><i class="fa fa-compress fa-lg" aria-hidden="true"></i>Log Out</a></li>
+                                    <li id="Login" runat="server"><a href="/Login.aspx"><i class="fa fa-compress fa-lg" aria-hidden="true"></i>Log In</a></li>
+                                    <li id="Register" runat="server"><a href="/Register.aspx"><i class="fa fa-compress fa-lg" aria-hidden="true"></i>Register</a></li>
+                                     <li id="Mainmenue" runat="server"><a href="/GameTracker/MainMenu.aspx"><i class="fa fa-compress fa-lg" aria-hidden="true"></i>Main Menu</a></li>
+                                     <li id="logout" runat="server"><a href="/Logout.aspx"><i class="fa fa-compress fa-lg" aria-hidden="true"></i>Log Out</a></li>
                                               
                                     
                                                        </ul>
@@ -90,10 +90,10 @@
 
                             <ul class="nav nav-tabs" id="navtab" runat="server">
                                 
-                                <li id="Match" runat="server"><a href="../Games.aspx">Match</a></li>
-                                <li id="Statistics" runat="server"><a href="../Statistics.aspx?MatchID=1">Statistics</a></li>
-                                <li id="Team" runat="server"><a href="../Team.aspx">Teams</a></li>
-                                <li id="Point" runat="server"><a href="../PointTable.aspx">Point Table</a></li>
+                                <li id="Match" runat="server"><a href="/Games.aspx">Match</a></li>
+                                <li id="Statistics" runat="server"><a href="/Statistics.aspx?MatchID=1">Statistics</a></li>
+                                <li id="Team" runat="server"><a href="/Team.aspx">Teams</a></li>
+                                <li id="Point" runat="server"><a href="/PointTable.aspx">Point Table</a></li>
                             </ul>
                         </ul>
                     </div>
@@ -155,8 +155,8 @@
         </footer>
     </div>
     <!-- JavaScript Section -->
-    <script src="Scripts/jquery-2.2.4.min.js"></script>
-    <script src="Scripts/bootstrap.min.js"></script>
-    <script src="Scripts/app.js"></script>
+    <script src="/Scripts/jquery-2.2.4.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    <script src="/Scripts/app.js"></script>
 </body>
 </html>
