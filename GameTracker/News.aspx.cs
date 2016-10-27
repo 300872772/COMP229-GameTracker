@@ -20,7 +20,8 @@ namespace GameTracker.Pages
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+          
+            Response.Redirect("http://www.fifa.com/about-fifa/news/index.html");
         }
     }
 }
