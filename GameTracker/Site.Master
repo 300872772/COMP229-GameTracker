@@ -21,10 +21,10 @@
     </asp:ContentPlaceHolder>
 
     <!-- CSS Section -->
-    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
-    <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
-    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
-    <link href="~/Content/app.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="Content/app.css" rel="stylesheet" />
 </head>
 <body>
     <div id="wrapper">
@@ -81,7 +81,7 @@
                                 <ul class="dropdown-menu">
                                     <li id="Login" runat="server"><a href="Login.aspx"><i class="fa fa-compress fa-lg" aria-hidden="true"></i>Log In</a></li>
                                     <li id="Register" runat="server"><a href="Register.aspx"><i class="fa fa-compress fa-lg" aria-hidden="true"></i>Register</a></li>
-                                     <li id="Mainmenue" runat="server"><a href="MainMenu.aspx"><i class="fa fa-compress fa-lg" aria-hidden="true"></i>Main Menu</a></li>
+                                     <li id="Mainmenue" runat="server"><a href="GameTracker/MainMenu.aspx"><i class="fa fa-compress fa-lg" aria-hidden="true"></i>Main Menu</a></li>
                                      <li id="logout" runat="server"><a href="Logout.aspx"><i class="fa fa-compress fa-lg" aria-hidden="true"></i>Log Out</a></li>
                                               
                                     

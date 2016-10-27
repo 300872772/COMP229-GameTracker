@@ -1,4 +1,4 @@
-﻿<%@ Page Title="MainMenu" Language="C#" MasterPageFile="../Site.Master" AutoEventWireup="true" CodeBehind="MainMenu.aspx.cs" Inherits="GameTracker.MainMenu" %>
+﻿<%@ Page Title="MainMenu" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="MainMenu.aspx.cs" Inherits="GameTracker.MainMenu" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
@@ -19,7 +19,7 @@
                     <h3><i class="fa fa-leanpub fa-lg"></i> Match Data Add Form</h3>
                     <div class="list-group">
                         <a class="list-group-item" href="MatchDataAddForm.aspx"><i class="fa fa-th-list"></i> Match List</a>
-                        <a class="list-group-item" href="MatchDataAddForm.aspx"><i class="fa fa-plus-circle"></i> Add Match</a>
+                        <a class="list-group-item"  href="MatchDataAddForm.aspx"><i class="fa fa-plus-circle"></i> Add Match</a>
                     </div>
                 </div>
 
