@@ -1,6 +1,151 @@
-C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\obj\Debug\GameTracker.csprojResolveAssemblyReference.cache
-C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\obj\Debug\GameTracker.Properties.Resources.resources
-C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\obj\Debug\GameTracker.csproj.GenerateResource.Cache
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\roslyn\csc.exe
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\roslyn\csc.exe.config
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\roslyn\csc.rsp
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\roslyn\csi.exe
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\roslyn\csi.rsp
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\roslyn\System.AppContext.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\roslyn\System.Collections.Immutable.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\roslyn\System.IO.FileSystem.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\roslyn\vbc.exe
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\roslyn\vbc.exe.config
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\roslyn\vbc.rsp
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\roslyn\VBCSCompiler.exe
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\roslyn\VBCSCompiler.exe.config
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\COMP229-F2016-Assignment1.dll.config
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\COMP229-F2016-Assignment1.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\COMP229-F2016-Assignment1.pdb
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\EntityFramework.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\EntityFramework.SqlServer.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\Microsoft.Web.Infrastructure.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\System.Linq.Dynamic.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\System.Web.Helpers.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\System.Web.Mvc.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\System.Web.Razor.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\System.Web.Webpages.Deployment.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\System.Web.Webpages.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\System.Web.Webpages.Razor.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\EntityFramework.xml
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\EntityFramework.SqlServer.xml
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\System.Web.Razor.xml
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\System.Web.Webpages.xml
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\System.Web.Webpages.Deployment.xml
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\System.Web.Webpages.Razor.xml
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\System.Web.Helpers.xml
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\System.Web.Mvc.xml
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\obj\Debug\GameTracker.csprojResolveAssemblyReference.cache
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\obj\Debug\GameTracker.Properties.Resources.resources
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\obj\Debug\GameTracker.csproj.GenerateResource.Cache
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\obj\Debug\COMP229-F2016-Assignment1.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\obj\Debug\COMP229-F2016-Assignment1.pdb
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\AspNet.ScriptManager.jQuery.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\Microsoft.Owin.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\Microsoft.Owin.Security.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\Newtonsoft.Json.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\Owin.dll
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\Microsoft.Owin.xml
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\Microsoft.Owin.Security.xml
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\aayushi\documents\visual studio 2015\Projects\GameTracker\GameTracker\bin\Newtonsoft.Json.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\roslyn\csc.exe
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\roslyn\csc.exe.config
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\roslyn\csc.rsp
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\roslyn\csi.exe
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\roslyn\csi.rsp
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\roslyn\System.AppContext.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\roslyn\vbc.exe
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\roslyn\vbc.exe.config
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\roslyn\vbc.rsp
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\roslyn\VBCSCompiler.exe
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\COMP229-F2016-Assignment1.dll.config
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\COMP229-F2016-Assignment1.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\COMP229-F2016-Assignment1.pdb
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\EntityFramework.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\EntityFramework.SqlServer.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\Microsoft.Owin.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\Microsoft.Owin.Security.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\Newtonsoft.Json.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\Owin.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\System.Linq.Dynamic.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\System.Web.Helpers.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\System.Web.Mvc.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\System.Web.Razor.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\System.Web.Webpages.Deployment.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\System.Web.Webpages.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\System.Web.Webpages.Razor.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\EntityFramework.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\EntityFramework.SqlServer.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\Microsoft.Owin.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\Microsoft.Owin.Security.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\Newtonsoft.Json.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\System.Web.Razor.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\System.Web.Webpages.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\System.Web.Webpages.Deployment.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\System.Web.Webpages.Razor.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\System.Web.Helpers.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\bin\System.Web.Mvc.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\obj\Debug\GameTracker.csprojResolveAssemblyReference.cache
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\obj\Debug\GameTracker.Properties.Resources.resources
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\obj\Debug\GameTracker.csproj.GenerateResource.Cache
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\obj\Debug\COMP229-F2016-Assignment1.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\GameTracker\GameTracker\obj\Debug\COMP229-F2016-Assignment1.pdb
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\roslyn\csc.exe
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\roslyn\csc.exe.config
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\roslyn\csc.rsp
@@ -30,25 +175,48 @@ C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameT
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\COMP229-F2016-Assignment1.dll.config
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\COMP229-F2016-Assignment1.dll
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\COMP229-F2016-Assignment1.pdb
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\EntityFramework.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\EntityFramework.SqlServer.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\Microsoft.AspNet.Identity.Owin.dll
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\Microsoft.Owin.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\Microsoft.Owin.Security.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\Microsoft.Owin.Security.OAuth.dll
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\Newtonsoft.Json.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\Owin.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\System.Linq.Dynamic.dll
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\System.Web.Helpers.dll
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\System.Web.Mvc.dll
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\System.Web.Razor.dll
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\System.Web.Webpages.Deployment.dll
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\System.Web.Webpages.dll
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\System.Web.Webpages.Razor.dll
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\EntityFramework.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\EntityFramework.SqlServer.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\Microsoft.AspNet.Identity.Owin.xml
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\Microsoft.Owin.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\Microsoft.Owin.Security.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\Newtonsoft.Json.xml
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\System.Web.Razor.xml
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\System.Web.Webpages.xml
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\System.Web.Webpages.Deployment.xml
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\System.Web.Webpages.Razor.xml
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\System.Web.Helpers.xml
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\System.Web.Mvc.xml
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\obj\Debug\GameTracker.csprojResolveAssemblyReference.cache
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\obj\Debug\GameTracker.Properties.Resources.resources
+C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\obj\Debug\GameTracker.csproj.GenerateResource.Cache
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\obj\Debug\COMP229-F2016-Assignment1.dll
 C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\obj\Debug\COMP229-F2016-Assignment1.pdb
-C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\EntityFramework.dll
-C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\EntityFramework.SqlServer.dll
-C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\EntityFramework.xml
-C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\EntityFramework.SqlServer.xml
-C:\Users\mamun\OneDrive\CentennialCollege-win\Semester3\COMP229\COMP-F2016-GameTracker\COMP229-GameTracker\GameTracker\bin\System.Linq.Dynamic.dll

@@ -13,5 +13,9 @@ namespace GameTracker
         {
 
         }
+
+        protected void sendButton_Click(object sender, EventArgs e) {
+
+        }
     }
 }

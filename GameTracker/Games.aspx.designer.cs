@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GameTracker.Pages {
-    
-    
-    public partial class Games {
-        
+namespace GameTracker.Pages
+{
+
+
+    public partial class Games
+    {
+
         /// <summary>
         /// matchDate control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace GameTracker.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl matchDate;
-        
+
         /// <summary>
         /// tournament control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace GameTracker.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl tournament;
-        
+
         /// <summary>
         /// matchWeek control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace GameTracker.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl matchWeek;
-        
+
         /// <summary>
         /// gameData control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace GameTracker.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl gameData;
-        
+
         /// <summary>
         /// MatchGridView control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace GameTracker.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView MatchGridView;
-        
+
         /// <summary>
         /// Div1 control.
         /// </summary>

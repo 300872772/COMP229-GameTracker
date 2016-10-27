@@ -14,6 +14,12 @@ using System.Web.UI.WebControls;
  * @website: http://mamun-aayushi-gametracker.azurewebsites.net/
  * @description: this file is main cs file for the website
  */
+
+// required for Identity and OWIN Security
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.Owin.Security;
+
 namespace GameTracker
 {
     /**  
@@ -39,13 +45,29 @@ namespace GameTracker
         */
         protected void Page_Load(object sender, EventArgs e)
         {
+            Mainmenue.Visible = false;
+            logout.Visible = false;
+            try
+            {
+                if (!String.IsNullOrEmpty(Session["UserName"].ToString()))
+                {
+
+                    //Read values from session
+                    string username = Session["UserName"].ToString();
+                    Login.InnerText = "Logged In: " + username.ToString();
+                    Mainmenue.Visible = true;
+                    logout.Visible = true;
+                }
+            }
+            catch { }
+
             switch (Page.Title)
             {
 
                 case "Home":
                     Home.Attributes.Add("class", "active");
                     navtab.Visible = false;
-                  
+
                     break;
                 case "News":
                     News.Attributes.Add("class", "active");
@@ -82,10 +104,19 @@ namespace GameTracker
                     navtab.Visible = false;
                     break;
 
-
+                case "Logout":
+                    logout.Visible = false;
+                    navtab.Visible = false;
+                    
+                    Login.InnerText = "Log In";
+                    break;
+                case "Login":
+                  //  logout.Visible = true;
+                    navtab.Visible = false;
+                    break;
 
             }
-            
+
         }
     }
 }

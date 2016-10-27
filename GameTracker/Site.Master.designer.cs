@@ -67,31 +67,40 @@ namespace GameTracker {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl Contacts;
         
         /// <summary>
-        /// MatchDataAddForm control.
+        /// Login control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl MatchDataAddForm;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Login;
         
         /// <summary>
-        /// TeamDataAddForm control.
+        /// Register control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl TeamDataAddForm;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Register;
         
         /// <summary>
-        /// MainMenu control.
+        /// Mainmenue control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl MainMenu;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Mainmenue;
+        
+        /// <summary>
+        /// logout control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl logout;
         
         /// <summary>
         /// navtab control.

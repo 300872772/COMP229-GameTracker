@@ -9,7 +9,7 @@
             <h1>Contact</h1>
 
 
-            <div class="col-md-5">
+            
 
 					<h4>CONTACT ME SENDING MESSAGE BY BELOW FORM</h4>
 					<div class="containerDecoration">
@@ -51,7 +51,7 @@
 						<asp:Button ID="sendButton" OnClick="sendButton_Click" CssClass="btn btn-primary" runat="server" Text="Submit" />
 							</div>
 					</div>
-				</div><!--col-md-5 -->
+				
 
 
 

@@ -61,13 +61,17 @@ namespace GameTracker.Pages
 
         }
 
-        public void GamepageHeading (int week){
+        public void GamepageHeading(int week)
+        {
 
             CultureInfo ciCurr = CultureInfo.CurrentCulture;
             int weekNum;
-            if (week == 0) { 
-             weekNum = ciCurr.Calendar.GetWeekOfYear(Convert.ToDateTime("2016/10/12"), CalendarWeekRule.FirstFourDayWeek, DayOfWeek.Monday);
-            }else {
+            if (week == 0)
+            {
+                weekNum = ciCurr.Calendar.GetWeekOfYear(Convert.ToDateTime("2016/10/12"), CalendarWeekRule.FirstFourDayWeek, DayOfWeek.Monday);
+            }
+            else
+            {
                 weekNum = week;
             }
             matchDate.InnerHtml = " Today <br>" + DateTime.Now.ToString("dd/MMM/yyyy") + " <br><a href = 'Games.aspx?WeekNum=" + (weekNum - 1) + "'>   <  </a>";
@@ -78,7 +82,7 @@ namespace GameTracker.Pages
         public void displayMatchesInGrid(int week)
         {
 
-            
+
             // connect to EF DB
             using (gametracker db = new gametracker())
             {
@@ -89,17 +93,17 @@ namespace GameTracker.Pages
                                join teams2 in db.Teams on allMatches.Team2ID equals teams2.TeamID
                                join matchStatistic in db.MatchStatistics on allMatches.MatchID equals matchStatistic.MatchID
                                where allMatches.Week == week
-                                 select  new
-                                 {
-                                     MatchID = allMatches.MatchID,
-                                     MatchDate = SqlFunctions.DateName("month", allMatches.MatchDate) + " " +SqlFunctions.DateName("day", allMatches.MatchDate) + ", "  + SqlFunctions.DateName("year", allMatches.MatchDate),
-                                     TeamName1 = teams1.TeamName,
-                                     Flag1 = "~/Assets/Flags/" +  teams1.Flag + ".gif",
-                                     Result =  matchStatistic.T1Goal + " - " + matchStatistic.T2Goal,
-                                     TeamName2 = teams2.TeamName,
-                                     Flag2 = "~/Assets/Flags/" + teams2.Flag + ".gif",
-                                 }).ToList();
-              
+                               select new
+                               {
+                                   MatchID = allMatches.MatchID,
+                                   MatchDate = SqlFunctions.DateName("month", allMatches.MatchDate) + " " + SqlFunctions.DateName("day", allMatches.MatchDate) + ", " + SqlFunctions.DateName("year", allMatches.MatchDate),
+                                   TeamName1 = teams1.TeamName,
+                                   Flag1 = "~/Assets/Flags/" + teams1.Flag + ".gif",
+                                   Result = matchStatistic.T1Goal + " - " + matchStatistic.T2Goal,
+                                   TeamName2 = teams2.TeamName,
+                                   Flag2 = "~/Assets/Flags/" + teams2.Flag + ".gif",
+                               }).ToList();
+
 
 
                 // bind the result to the MatchGridView 
@@ -115,7 +119,7 @@ namespace GameTracker.Pages
 
 
 
-       
+
 
         protected void GridView_OnSelectedIndexChanging(object sender, GridViewSelectEventArgs e)
         {
@@ -129,7 +133,7 @@ namespace GameTracker.Pages
                 e.Row.Attributes.Add("onmouseover", "this.style.backgroundColor='#ceedfc'");
                 e.Row.Attributes.Add("onmouseout", "this.style.backgroundColor=''");
                 e.Row.Attributes.Add("style", "cursor:pointer;");
-                 e.Row.Attributes.Add("onclick", "location='Statistics.aspx?MatchID=" + e.Row.Cells[0].Text + "'");
+                e.Row.Attributes.Add("onclick", "location='Statistics.aspx?MatchID=" + e.Row.Cells[0].Text + "'");
 
 
             }
